@@ -13,7 +13,7 @@
       </div>
       <hr>
       <div id="tag">
-        <a class="btn" href='#'>记一件小事</a>
+        <a class="btn" href='/diary'>记一件小事</a>
         <a class="btn" href='#'>记一点博客</a>
       </div>
       <div id="link">
