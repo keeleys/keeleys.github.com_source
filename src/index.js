@@ -1,8 +1,10 @@
-import './css/main.scss';
-
 import Vue from 'vue'
-import Home from './template/Home.vue'
+import Index from './components/home/Index.vue'
+
+import './css/main.scss';
+import store from './store'
 
 var app = new Vue({
-    render: (createEl) => createEl(Home)
+    store,
+    render: (createEl) => createEl(Index)
 }).$mount('#app');

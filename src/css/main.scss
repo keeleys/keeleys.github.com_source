@@ -8,8 +8,11 @@
   --button1: #34495e;
   --button2: #2c3e50;
 }
-html, body{
-    height: 100%;
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
 }
 body {
   background: var(--background);

@@ -25,5 +25,8 @@
     "build": "webpack --config webpack.config.js",
     "pro": "webpack --config webpack.config.js --mode=production",
     "dev": "webpack-dev-server --hotOnly"
+  },
+  "dependencies": {
+    "vuex": "^3.1.2"
   }
 }
